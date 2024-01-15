@@ -8,13 +8,9 @@ CREATE TABLE names (
 );
 
 -- Trigger to set start_date
-CREATE TRIGGER set_start_date BEFORE INSERT ON names
-FOR EACH ROW
-BEGIN
-    SELECT CASE
-        WHEN NEW.start_date IS NULL THEN
-            SET NEW.start_date = CURRENT_TIMESTAMP;
-        ELSE
-            NEW.start_date;
-    END;
-END;
+-- CREATE TRIGGER set_start_date BEFORE INSERT ON names
+-- FOR EACH ROW
+-- WHEN NEW.start_date IS NULL
+-- BEGIN
+--     NEW.start_date = CURRENT_TIMESTAMP;
+-- END;

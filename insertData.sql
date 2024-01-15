@@ -1,0 +1,22 @@
+INSERT INTO names (f_name, m_name, l_name) VALUES 
+('John', 'A', 'Smith'),
+('Emily', 'B', 'Jones'),
+('Michael', 'C', 'Brown'),
+('Sarah', 'D', 'Davis'),
+('William', 'E', 'Miller'),
+('Jessica', 'F', 'Wilson'),
+('Matthew', 'G', 'Moore'),
+('Ashley', 'H', 'Taylor'),
+('Christopher', 'I', 'Anderson'),
+('Jennifer', 'J', 'Thomas'),
+('Joshua', 'K', 'Jackson'),
+('Amanda', 'L', 'White'),
+('Daniel', 'M', 'Harris'),
+('Elizabeth', 'N', 'Martin'),
+('Robert', 'O', 'Thompson'),
+('Megan', 'P', 'Garcia'),
+('Brian', 'Q', 'Martinez'),
+('Rachel', 'R', 'Robinson'),
+('Jason', 'S', 'Clark'),
+('Lauren', 'T', 'Rodriguez');
+
