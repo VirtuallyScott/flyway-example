@@ -6,11 +6,3 @@ CREATE TABLE names (
     m_name TEXT,
     l_name TEXT NOT NULL
 );
-
--- Trigger to set start_date
--- CREATE TRIGGER set_start_date BEFORE INSERT ON names
--- FOR EACH ROW
--- WHEN NEW.start_date IS NULL
--- BEGIN
---     NEW.start_date = CURRENT_TIMESTAMP;
--- END;
