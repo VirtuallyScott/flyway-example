@@ -7,9 +7,11 @@ services:
     image: postgres
     restart: always
     environment:
-      POSTGRES_USER: example
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: example
-      POSTGRES_DB: example
+      POSTGRES_DB: postgres
+    ports:
+      - 5432:5432
 
   adminer:
     image: adminer
