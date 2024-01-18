@@ -1,8 +1,3 @@
--- Create Database (if it doesn't exist)
-CREATE DATABASE IF NOT EXISTS flyway-example;
-
-\c flyway_example; -- Connect to the database
-
 -- Create Extension for UUID (if it doesn't exist)
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
