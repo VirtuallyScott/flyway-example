@@ -1,4 +1,4 @@
--- Filename: V5__Create_addresses_table.sql
+-- Filename: V4__Create_addresses_table.sql
 
 CREATE TABLE IF NOT EXISTS addresses (
     id BINARY(16) PRIMARY KEY DEFAULT (UUID_TO_BIN(UUID())),

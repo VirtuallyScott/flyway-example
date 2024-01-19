@@ -1,4 +1,4 @@
--- Filename: V2__Create_names_table.sql
+-- Filename: V1__Create_names_table.sql
 
 CREATE TABLE IF NOT EXISTS names (
     id BINARY(16) PRIMARY KEY DEFAULT (UUID_TO_BIN(UUID())),

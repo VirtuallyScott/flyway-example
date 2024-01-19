@@ -1,4 +1,4 @@
--- Filename: V3__Insert_sample_data.sql
+-- Filename: V2__Insert_sample_data.sql
 
 INSERT INTO names (f_name, m_name, l_name) VALUES
 ('John', 'A', 'Doe'),
